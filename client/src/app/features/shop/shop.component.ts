@@ -85,7 +85,7 @@ export class ShopComponent implements OnInit {
     this.getProducts();
   }
 
-  openFilersDialog(){
+  openFiltersDialog(){
     const dialogRef = this.dialogService.open(FiltersDialogComponent,{
       minWidth: '500px',
       data: {
